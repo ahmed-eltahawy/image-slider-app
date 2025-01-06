@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .grayscale {
+    filter: grayscale(100%);
+  }
+  
+  .grayscale-0 {
+    filter: grayscale(0);
+  }
+}
+
+
+
+
+//احتياطي
+// .hero-section {
+//     background: linear-gradient(90deg, #0aad0a 0%, #0aad0a 100%);
+//     color: #fff;
+  
+//     .btn-primary {
+//       background-color: #0aad0a;
+//       color: #fff;
+//       padding: 10px 20px;
+//       border-radius: 8px;
+//       font-size: 16px;
+//       font-weight: bold;
+//     }
+  
+//     .btn-secondary {
+//       background-color: #ffffff;
+//       color: #0aad0a;
+//       padding: 10px 20px;
+//       border-radius: 8px;
+//       font-size: 16px;
+//       font-weight: bold;
+//       border: 2px solid #0aad0a;
+//     }
+  
+//     img {
+//       max-width: 100%;
+//       height: auto;
+//       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+//     }
+//   }
